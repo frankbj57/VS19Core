@@ -35,6 +35,7 @@ namespace RegisterLib.Test.Unit
             Assert.That(uut_.Total, Is.EqualTo(5.5));
         }
 
+        [Test]
         public void Add_TwoItems_CountIsCorrect()
         {
             uut_.AddItem(1.2);
