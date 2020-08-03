@@ -6,21 +6,16 @@ namespace RegisterLib
     public class Register
     {
         private List<double> itemList;
+        private double total;
 
         public Register()
         {
             itemList = new List<double>();
         }
 
-        public double Total { get; private set; }
+        public double Total { get => total; private set => total = value; }
 
-        public double NItems
-        {
-            get
-            {
-                return itemList.Count;
-            }
-        }
+        public double NItems => itemList.Count;
 
         public void AddItem(double item)
         {

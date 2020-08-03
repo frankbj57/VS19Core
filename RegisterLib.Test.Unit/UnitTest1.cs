@@ -9,7 +9,7 @@ namespace RegisterLib.Test.Unit
         [SetUp]
         public void Setup()
         {
-            uut_ = new RegisterLib.Register();
+            uut_ = new Register();
         }
 
         [Test]

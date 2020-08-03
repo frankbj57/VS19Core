@@ -1,7 +1,6 @@
 ﻿using System;
-using RegisterLib;
 
-namespace RegisterApp
+namespace RegisterLib.App
 {
     class Program
     {
