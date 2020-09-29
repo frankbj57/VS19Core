@@ -23,7 +23,7 @@ namespace RegisterLib
                 throw new ArgumentException("Idiot!");
 
             itemList.Add(item);
-            Total += item;
+            total += item;
         }
     }
 }
