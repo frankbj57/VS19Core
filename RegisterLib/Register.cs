@@ -13,7 +13,7 @@ namespace RegisterLib
             itemList = new List<double>();
         }
 
-        public double Total { get => total; private set => total = value; }
+        public double Total { get => total; }
 
         public double NItems => itemList.Count;
 
