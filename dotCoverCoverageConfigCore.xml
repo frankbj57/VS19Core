@@ -22,7 +22,7 @@
       <FilterEntry>
         <ModuleMask>RegisterLib</ModuleMask>
         <ClassMask>*</ClassMask>
-        <FunctionMask>*</FunctionMask>
+        <FunctionMask>AddItem</FunctionMask>
       </FilterEntry>
     </ExcludeFilters>
   </Filters>
