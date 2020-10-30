@@ -10,7 +10,7 @@ namespace RegisterLib
 
         public Register()
         {
-            itemList = new List<double>();
+            //itemList = new List<double>();
         }
 
         public double Total { get => total; }
