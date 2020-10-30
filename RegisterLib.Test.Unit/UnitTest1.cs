@@ -13,6 +13,18 @@ namespace RegisterLib.Test.Unit
         }
 
         [Test]
+        public void ctor_NoAction_TotalIsZero()
+        {
+            Assert.That(uut_.Total, Is.Zero);
+        }
+
+        [Test]
+        public void ctor_NoAction_NItemIsZero()
+        {
+            Assert.That(uut_.NItems, Is.Zero);
+        }
+
+        [Test]
         public void Add_NegativeItem_Throws()
         {
             Assert.That(
